@@ -6,7 +6,7 @@ export const loadState = () => {
       return undefined;
     }
 
-    return JSON.parse(saveState);
+    return JSON.parse(savedState);
   } catch (error) {
     return undefined;
   }
